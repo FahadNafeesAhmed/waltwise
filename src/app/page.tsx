@@ -7,6 +7,7 @@ import { AuditConsole } from '@/components/AuditConsole';
 import { ExtractionResponse } from '@/types';
 import { Zap, Cpu, Terminal, ShieldCheck, Activity, Layers, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { clsx } from 'clsx';
 
 export default function Home() {
   const [isProcessing, setIsProcessing] = useState(false);
